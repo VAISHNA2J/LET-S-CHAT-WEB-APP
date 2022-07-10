@@ -1,0 +1,51 @@
+html, body
+{
+    height: 100%;
+    margin: 0;
+}
+
+body
+{
+    background: linear-gradient(to right top, rgb(202, 202, 235), rgb(65, 181, 65),rgb(217, 143, 6), rgb(251, 115, 183));
+}
+
+.header
+{
+    color: rgb(79, 23, 23);
+    font-family: 'Yeon Sung';
+    font-size: 45px;
+    letter-spacing: 10px;
+    margin-top: 80px;
+}
+
+.header img
+{
+    width: 80px;
+    margin-left: -15px;
+}
+
+.room_name
+{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#logout
+{
+    font-size: 20px;
+    float: right;
+}
+
+#output
+{
+    padding: 10px;
+    width: 80%;
+    background-color: rgb(6, 6, 43);
+    border-radius: 15px;
+    color: white;
+}
+
+.color_white
+{
+    color: white;
+}
